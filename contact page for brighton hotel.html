@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Brighton Hotel Restaurant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Brighton Hotel Logo">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="contact">
+<h1>Contact Us</h1>
+<p>We’d love to hear from you! Reach out to us through the form below or via our contact details.</p>
+
+<form action="submit_contact.php" method="POST">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Your Message:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+</section>
+</main>
+<footer>
+<p>Address: Bajana 5, Wrocław City, Poland</p>
+<p>Phone: (123) 9020-5364 | Email: info@brightonhotel.com</p>
+<div class="social-media">
+<a href="https://facebook.com"><img src="facebook.png" alt="Facebook"></a>
+<a href="https://instagram.com"><img src="instagram.png" alt="Instagram"></a>
+</div>
+<nav>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
